@@ -1,3 +1,389 @@
 body {
     font-family: "Poppins", serif;
+    margin: 150px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1126px;
+    height: 496px;
+}
+
+.page-title {
+    justify-content: flex-start;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-list {
+    display: inline-flex;
+    justify-content: space-evenly;
+    position: relative;
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    color: #2F281E;
+
+}
+
+.btn {
+    /* Button */
+
+    position: relative;
+    left: 60px;
+    margin-left: 15px;
+    border-radius: 4px;
+    width: 102px;
+    height: 46px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+}
+
+.btn-sign-in {
+    /* Sign In */
+    background: #FFFFFF;
+    color: #173A56;
+    border: 1px solid #BCD0E5;
+    /* Button */
+
+    position: absolute;
+    left: 73.5%;
+    right: 19.21%;
+    top: 3.15%;
+    bottom: 21.79%;
+}
+
+.btn-sign-up {
+    /* Sign Up*/
+    /* Button */
+
+    position: absolute;
+    left: 81.79%;
+    right: 10.36%;
+    top: 3.15%;
+    bottom: 21.79%;
+
+    background: #FF9900;
+    color: #FFFFFF;
+    border: none;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    margin-left: 145px;
+    top: 128px;
+}
+
+
+
+.hero-title {
+    /* The Design Thinking */
+    position: absolute;
+    width: 518px;
+    height: 303px;
+    left: 145px;
+    top: 211px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    /* or 123% */
+
+    color: #2F281E;
+}
+
+.hero-content {
+    /* Tools, tutorials, de */
+
+    position: absolute;
+    width: 458px;
+    height: 95px;
+    left: 145px;
+    top: 349px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #544837;
+}
+
+.btn-yellow {
+    /* button */
+    position: absolute;
+    width: 175px;
+    height: 53px;
+    left: 145px;
+    top: 489px;
+    background: #FF9900;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-white {
+
+    color: #FF9900;
+    text-decoration: underline;
+    /* button */
+    border: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 175px;
+    height: 23px;
+    left: 350px;
+    top: 504px;
+}
+
+.hero-image {
+    /* Image */
+    position: absolute;
+    width: 605px;
+    height: 496px;
+    left: 666px;
+    top: 128px;
+}
+
+.tools {
+    /* We design tools to u */
+    display: flex;
+    justify-content: space-evenly;
+    width: 1095px;
+    position: relative;
+}
+
+.tools>div>button {
+    position: relative;
+
+}
+
+.tools>div>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+}
+
+.feature-cards {
+    display: inline-flex;
+
+
+}
+
+.feature-cards>div>p {
+    /* First click tests */
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #2F281E;
+}
+
+.feature-description {
+    /* Sports betting, lott */
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #544837;
+}
+
+.btn-features {
+    /* button */
+    position: absolute;
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FF9900;
+    border-radius: 4px;
+}
+
+.feature-cards>div>i {
+    /* icon bd */
+    color: #FFFFFF;
+
+    border-radius: 19px;
+    width: 50px;
+    height: 50px;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.purple {
+    background: #7752BE;
+
+}
+
+.red {
+    background-color: #FAB005;
+}
+
+.yellow {
+    background-color: #F03E3D;
+}
+
+.blue {
+    background-color: #4DADF7;
+}
+
+/* design-professional   product-managers   marketers  sections*/
+.design-professional,
+.product-managers,
+.marketers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title {
+    /* Design Professionals */
+    position: relative;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+
+    color: #2F281E;
+}
+
+.card-subtitle {
+    /* Accessory makers */
+
+
+
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    color: #2F281E;
+}
+
+.card-content {
+    /* The Myspace page def */
+    position: relative;
+    top: 19.4%;
+    bottom: 65.91%;
+    left: 0%;
+    right: 0%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #544837;
+}
+
+.side-image {
+    /* Image */
+
+    position: relative;
+    width: 520px;
+    height: 574px;
+
+}
+
+/* Footer */
+.footer {
+    /* 09 Footer */
+    border-top: #BCD0E5 solid 1px;
+    position: relative;
+    width: 1109px;
+    height: 308px;
+
+
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+
+}
+
+.footer-block-first {
+    position: relative;
+    top: 100px;
+}
+
+.footer-block-last,
+.footer-block-left,
+.footer-block-right {
+    position: relative;
+    top: 150px;
+}
+
+.footer-block-last>input {
+    width: 325px;
+    height: 48px;
+    display: block;
+    margin: 10px;
+    border: #BCD0E5 solid 1px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.btn-sign-up-now {
+    /* button */
+    margin: 10px;
+    width: 175px;
+    height: 53px;
+    left: 145px;
+    top: 489px;
+    background: #FF9900;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 }

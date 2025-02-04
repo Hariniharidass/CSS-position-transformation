@@ -25,7 +25,7 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <header>
+    <header class="nav-bar">
         <p class="page-title">
             <span>
                 <img src="/images/logo.png" alt="logo">
@@ -34,63 +34,67 @@
                 <img src="/images/productly.png" alt="logo">
             </span>
         </p>
-        <nav>
+        <nav class="nav-menu">
             <ul>
-                <li>
+                <li class="nav-list">
                     Product
                 </li>
-                <li>
+                <li class="nav-list">
                     Consumers
                 </li>
-                <li>
+                <li class="nav-list">
                     Pricing
                 </li>
-                <li>
+                <li class="nav-list">
                     Resources
                 </li>
             </ul>
+
+            <button class="btn btn-sign-in">Sign In</button>
+            <button class="btn btn-sign-up">Sign Up</button>
         </nav>
-        <button class="btn btn-sign-in">Sign-In</button>
-        <button class="btn btn-sign-up">Sign-In</button>
     </header>
     <section class="home">
-        <div>
-            <h1>The Design Thinking superpowers</h1>
-            <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your
+        <div class="hero-card">
+            <p class="hero-title">The Design Thinking superpowers</p>
+            <p class="hero-content">Tools, tutorials, design and innovation experts, all in one place! The most
+                intuitive way to imagine your
                 next user
                 experience.</p>
-            <button>Get started</button>
-            <button><i class="fa fa-play" aria-hidden="true"></i>Watch the Video</button>
+            <button class="btn btn-yellow">Get started</button>
+            <button class="btn btn-white"><i class="fa fa-play" aria-hidden="true"></i>Watch the Video</button>
         </div>
-        <div>
+        <div class="hero-image">
             <img src="/images/hero-image.png" alt="hero-image">
         </div>
     </section>
     <section class="tools">
         <div>
-            <h3>We design tools to unveil your superpowers</h3>
-            <div>
-                <i class="fa fa-mouse-pointer" aria-hidden="true"></i>
-                <h5>First click tests</h5>
-                <div>While most people enjoy casino gambling,</div>
-            </div>
-            <div>
-                <i class="fa fa-stumbleupon" aria-hidden="true"></i>
-                <h5>Design surveys</h5>
-                <div>Sports betting, lottery and bingo playing for the fun</div>
-            </div>
-            <div>
-                <i class="fa fa-heart" aria-hidden="true"></i>
-                <h5>Preference tests</h5>
-                <div>The Myspace page defines the individual.</div>
-            </div>
-            <div>
-                <i class="fa fa-hourglass-half" aria-hidden="true"></i>
+            <p>We design tools to unveil your superpowers</p>
+            <div class="feature-cards">
+                <div>
+                    <i class="fa fa-mouse-pointer purple" aria-hidden="true"></i>
+                    <p>First click tests</p>
+                    <div class="feature-description">While most people enjoy casino gambling,</div>
+                </div>
+                <div>
+                    <i class="fa fa-stumbleupon yellow" aria-hidden="true"></i>
+                    <p>Design surveys</p>
+                    <div class="feature-description">Sports betting, lottery and bingo playing for the fun</div>
+                </div>
+                <div>
+                    <i class="fa fa-heart red" aria-hidden="true"></i>
+                    <p>Preference tests</p>
+                    <div class="feature-description">The Myspace page defines the individual.</div>
+                </div>
+                <div>
+                    <i class="fa fa-hourglass-half blue" aria-hidden="true"></i>
 
-                <h5>Five second tests</h5>
-                <div>Personal choices and the overall personality of the person.</div>
+                    <p>Five second tests</p>
+                    <div class="feature-description">Personal choices and the overall personality of the person.</div>
+                </div>
             </div>
-            <button>Sign up now</button>
+            <button class="btn-sign-up-now ">Sign up now</button>
         </div>
     </section>
     <section class="design-professional">
@@ -117,6 +121,9 @@
 
     </section>
     <section class="product-managers">
+        <div class="side-image">
+            <img src="/images/project-managers.png" alt="product-managers-image">
+        </div>
         <div class="card">
             <div class="card-content">Easier decision making for</div>
             <div class="card-title">Product Managers</div>
@@ -131,9 +138,7 @@
 
             <div class="card-content">We track the markets daily and know where the savings are. </div>
         </div>
-        <div class="side-image">
-            <img src="/images/project-managers.png" alt="product-managers-image">
-        </div>
+
     </section>
 
 
@@ -160,14 +165,16 @@
             <img src="/images/marketers.png" alt="marketers-image">
         </div>
     </section>
-    <footer>
-        <div class="footer-block-left">
+    <footer class="footer">
+        <div class="footer-block-first">
             <span>
                 <img src="/images/logo.png" alt="logo">
             </span>
-            <p>Productly</p>
+            <span>
+                <img src="/images/productly.png" alt="logo">
+            </span>
         </div>
-        <div class="footer-block-center">
+        <div class="footer-block-left">
             <p>About Us</p>
             <p>Blog</p>
             <p>Contact</p>
@@ -179,9 +186,9 @@
             <p>Privacy Policy</p>
             <p>Terms of Service</p>
         </div>
-        <div>
+        <div class="footer-block-last">
             <input type="text" name="sign-up-text">
-            <button>Sign up now</button>
+            <button class="btn-sign-up-now ">Sign up now</button>
         </div>
     </footer>
 </body>
