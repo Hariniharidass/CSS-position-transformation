@@ -1,6 +1,6 @@
 body {
     font-family: "Poppins", serif;
-    margin: 150px;
+    margin: 20px;
 }
 
 .nav-bar {
@@ -39,7 +39,6 @@ body {
 
 .btn {
     /* Button */
-
     position: relative;
     left: 60px;
     margin-left: 15px;
@@ -59,8 +58,6 @@ body {
     background: #FFFFFF;
     color: #173A56;
     border: 1px solid #BCD0E5;
-    /* Button */
-
     position: absolute;
     left: 73.5%;
     right: 19.21%;
@@ -70,14 +67,11 @@ body {
 
 .btn-sign-up {
     /* Sign Up*/
-    /* Button */
-
     position: absolute;
     left: 81.79%;
     right: 10.36%;
     top: 3.15%;
     bottom: 21.79%;
-
     background: #FF9900;
     color: #FFFFFF;
     border: none;
@@ -87,11 +81,9 @@ body {
     display: flex;
     justify-content: space-between;
     height: 96px;
-    margin-left: 145px;
+    margin: 150px;
     top: 128px;
 }
-
-
 
 .hero-title {
     /* The Design Thinking */
@@ -112,7 +104,6 @@ body {
 
 .hero-content {
     /* Tools, tutorials, de */
-
     position: absolute;
     width: 458px;
     height: 95px;
@@ -165,17 +156,17 @@ body {
 .tools {
     /* We design tools to u */
     display: flex;
-    justify-content: space-evenly;
-    width: 1095px;
+    justify-content: space-around;
     position: relative;
 }
 
 .tools>div>button {
     position: relative;
-
+    margin-bottom: 100px;
 }
 
 .tools>div>p {
+    /*title*/
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -183,18 +174,25 @@ body {
     line-height: 54px;
     text-align: center;
     color: #2F281E;
+    width: 539px;
+    height: 108px;
+    position: relative;
+    left: 200px;
 }
 
+
 .feature-cards {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-evenly;
+}
 
-
+.feature-cards>div {
+    width: 240px;
+    height: 178px;
 }
 
 .feature-cards>div>p {
     /* First click tests */
-
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -206,35 +204,17 @@ body {
 
 .feature-description {
     /* Sports betting, lott */
-
-
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     /* or 162% */
-
     color: #544837;
 }
 
-.btn-features {
-    /* button */
-    position: absolute;
-
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    background: #FF9900;
-    border-radius: 4px;
-}
-
 .feature-cards>div>i {
-    /* icon bd */
     color: #FFFFFF;
-
     border-radius: 19px;
     width: 50px;
     height: 50px;
@@ -245,24 +225,41 @@ body {
     line-height: 18px;
     text-align: center;
     color: #ffffff;
+    align-content: center;
 
 }
 
 .purple {
     background: #7752BE;
-
 }
 
 .red {
-    background-color: #FAB005;
+    background-color: #F03E3D;
 }
 
 .yellow {
-    background-color: #F03E3D;
+    background-color: #FAB005;
 }
 
 .blue {
     background-color: #4DADF7;
+}
+
+.btn-tools {
+    width: 175px;
+    height: 53px;
+    background: #FF9900;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 400px;
+    top: 50px;
 }
 
 /* design-professional   product-managers   marketers  sections*/
@@ -270,7 +267,14 @@ body {
 .product-managers,
 .marketers {
     display: flex;
-    justify-content: space-around;
+    align-items: flex-start;
+    margin: 150px;
+
+}
+
+.product-managers {
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .card-title {
@@ -281,23 +285,21 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 54px;
+    line-height: 64px;
     /* identical to box height */
-
+    margin-bottom: 20px;
+    margin-top: -25px;
     color: #2F281E;
 }
 
-.card-subtitle {
+.card-sub-title {
     /* Accessory makers */
-
-
-
     position: relative;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 35px;
     /* identical to box height, or 162% */
     color: #2F281E;
 }
@@ -305,38 +307,61 @@ body {
 .card-content {
     /* The Myspace page def */
     position: relative;
-    top: 19.4%;
-    bottom: 65.91%;
-    left: 0%;
-    right: 0%;
+    margin-bottom: 20px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 27px;
     /* or 162% */
-
+    align-content: flex-start;
     color: #544837;
 }
 
-.side-image {
+.product-check-points {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.tick {
+    /* button */
+    width: 35px;
+    height: 35px;
+    background: #FF9900;
+    border-radius: 13.8542px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    margin-right: 30px;
+}
+
+
+.side-image-design,
+.side-image-product,
+.side-image-marketers {
     /* Image */
 
     position: relative;
-    width: 520px;
-    height: 574px;
+    align-items: flex-end;
+    left: 100px;
+}
 
+.side-image-product {
+    align-items: flex-start;
+    left: 0px;
+    margin-right: 50px;
 }
 
 /* Footer */
 .footer {
-    /* 09 Footer */
     border-top: #BCD0E5 solid 1px;
     position: relative;
     width: 1109px;
     height: 308px;
-
-
+    margin: 150px;
     display: flex;
     justify-content: space-between;
     font-family: 'Poppins';
