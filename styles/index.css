@@ -213,7 +213,7 @@ body {
     color: #544837;
 }
 
-.feature-cards>div>i {
+.icons {
     color: #FFFFFF;
     border-radius: 19px;
     width: 50px;
@@ -224,25 +224,57 @@ body {
     font-size: 16px;
     line-height: 18px;
     text-align: center;
-    color: #ffffff;
     align-content: center;
 
+}
+
+.icons-shadow {
+    color: #FFFFFF;
+    width: 50px;
+    height: 25px;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    left: -55px;
+    bottom: -12px;
+    z-index: -1;
 }
 
 .purple {
     background: #7752BE;
 }
 
+.shadow-purple {
+    background-color: #c6aef3;
+}
+
 .red {
     background-color: #F03E3D;
+}
+
+.shadow-red {
+    background-color: #f8b1b1;
 }
 
 .yellow {
     background-color: #FAB005;
 }
 
+.shadow-yellow {
+    background-color: #eddbb2;
+}
+
 .blue {
     background-color: #4DADF7;
+}
+
+.shadow-blue {
+    background-color: #c9e1f3;
 }
 
 .btn-tools {
